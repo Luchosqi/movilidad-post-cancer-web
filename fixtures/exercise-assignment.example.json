@@ -1,0 +1,10 @@
+{
+  "schema_version": "0.1",
+  "assignment_id": "10000000-0000-4000-8000-000000000001",
+  "patient_id": "demo-patient-001",
+  "professional_id": "demo-professional-001",
+  "exercise_id": "exercise-demo-01",
+  "protocol_version": "demo-1",
+  "side": "left",
+  "assigned_at": "2026-10-06T11:00:00Z"
+}

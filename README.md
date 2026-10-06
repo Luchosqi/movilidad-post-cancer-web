@@ -1,10 +1,10 @@
 # Movilidad Post-Cáncer — web
 
-Repositorio de la interfaz para profesionales y del futuro servicio de sesiones del proyecto **Movilidad Post-Cáncer**. La propuesta del curso plantea una app para el paciente, una herramienta clínica y un panel de seguimiento. Este repositorio agrupa las dos vistas profesionales; [APK](https://github.com/Luchosqi/movilidad-post-cancer-APK) se encarga de la captura y medición en Android.
+Repositorio de la **web del profesional encargado de cada paciente**. Desde aquí el profesional asigna ejercicios y consulta un dashboard por paciente con sesiones, mediciones y evolución. La [app APK](https://github.com/Luchosqi/movilidad-post-cancer-APK) es para el paciente: muestra los ejercicios asignados y usa la cámara del teléfono para detectar los movimientos durante su ejecución.
 
 ## Estado
 
-Planificación inicial. Todavía no se eligió un framework, no hay API desplegada ni se almacenan datos de pacientes. El primer objetivo es mostrar el historial de una persona de prueba a partir de [datos sintéticos](fixtures/assessment-session.example.json) y después conectar un flujo completo con APK.
+Planificación inicial. Todavía no se eligió un framework, no hay API desplegada ni se almacenan datos de pacientes. El primer objetivo es simular una [asignación de ejercicio](fixtures/exercise-assignment.example.json) y mostrar el historial de un paciente de prueba a partir de [sesiones sintéticas](fixtures/assessment-session.example.json). Después se conectará el flujo completo con APK.
 
 ## Acuerdos de equipo
 
@@ -15,10 +15,11 @@ Planificación inicial. Todavía no se eligió un framework, no hay API desplega
 
 ## Alcance inicial de web
 
-1. Vista de un profesional con identificador de prueba e historial de sesiones.
-2. Comparación legible de mediciones del mismo ejercicio y lado en distintos momentos.
-3. API y persistencia para recibir las sesiones de APK, tras acordar stack, acceso y privacidad.
-4. Señales visibles de calidad de medición; no inferir diagnósticos ni umbrales clínicos sin validación.
+1. Vista del profesional con sus pacientes y un dashboard individual para cada uno.
+2. Asignación de ejercicios al paciente y consulta del estado de esas asignaciones.
+3. Historial y comparación legible de sesiones, mediciones y evolución de un mismo ejercicio.
+4. API y persistencia para entregar asignaciones a APK y recibir las sesiones medidas con la cámara del teléfono, tras acordar stack, acceso y privacidad.
+5. Señales visibles de calidad de medición; no inferir diagnósticos ni umbrales clínicos sin validación.
 
 ## Forma de contribuir
 
@@ -27,6 +28,7 @@ Crear un issue con el resultado esperado y criterios de aceptación, trabajar en
 ## Estructura actual
 
 - `docs/contrato-integracion.md`: propuesta de intercambio entre ambos repositorios.
-- `fixtures/assessment-session.example.json`: ejemplo sintético para desarrollar y probar la vista.
+- `fixtures/exercise-assignment.example.json`: ejemplo sintético de ejercicio asignado por el profesional.
+- `fixtures/assessment-session.example.json`: ejemplo sintético de una sesión realizada por el paciente.
 
 La estructura de código y los comandos de desarrollo se agregarán cuando el equipo elija el stack web.
