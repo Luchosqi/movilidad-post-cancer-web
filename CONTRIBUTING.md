@@ -30,6 +30,6 @@ Ejemplos: `docs(protocolo): definir ejercicio inicial`, `feat(historial): mostra
 ## Coordinación entre APK y web
 
 1. Si una tarea afecta ambos repositorios, abrir un issue en cada uno y enlazarlos. Acordar primero el cambio en el [contrato de integración](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/contrato-integracion.md).
-2. Web mantiene el formato y ejemplo de sesión; APK verifica que su salida coincida. Un cambio incompatible requiere nueva versión del contrato y coordinación de las dos integraciones.
+2. Web mantiene los formatos y ejemplos de asignación y sesión; APK verifica que puede recibir la asignación y que su sesión enviada coincide. Un cambio incompatible requiere nueva versión del contrato y coordinación de las dos integraciones.
 3. Revisar que no se versionen credenciales, datos identificables de pacientes, videos clínicos ni bases reales. Las demostraciones usan datos sintéticos.
 4. Registrar en los issues los acuerdos de reunión, bloqueos y responsable siguiente. El equipo decide cuándo cortar una rama `release/*` para la entrega del ramo.
