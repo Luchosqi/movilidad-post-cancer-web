@@ -22,7 +22,7 @@ Planificación inicial. Todavía no se eligió un framework, no hay API desplega
 
 ## Forma de contribuir
 
-Crear un issue con el resultado esperado y criterios de aceptación, trabajar en una rama por cambio y abrir un PR para revisión por otro integrante. Los cambios al formato de sesión se discuten primero en `docs/contrato-integracion.md` y se coordinan con APK. No subir credenciales, datos reales ni videos de pacientes.
+Crear un issue con el resultado esperado y criterios de aceptación, trabajar en una rama por cambio y pedir revisión a otro integrante antes de integrar. Los cambios al formato de sesión se discuten primero en `docs/contrato-integracion.md` y se coordinan con APK. No subir credenciales, datos reales ni videos de pacientes. Seguir el [flujo GitFlow y las convenciones de commits](CONTRIBUTING.md).
 
 ## Estructura actual
 

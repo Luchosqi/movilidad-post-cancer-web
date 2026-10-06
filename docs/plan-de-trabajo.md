@@ -48,9 +48,9 @@ La rotación de coordinación sigue la descrita en el README de APK: Emilia, Lui
 ## Cómo trabajamos en dos repositorios
 
 1. Cada tarea tiene un repositorio dueño y un issue allí. Si toca a ambos, se crean dos issues enlazados con un mismo nombre de hito; cada uno indica qué espera del otro.
-2. La API y el formato de sesión se acuerdan mediante un PR al [contrato de web](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/contrato-integracion.md) antes de implementar cambios incompatibles. Web publica un ejemplo JSON; APK lo usa para probar su envío.
-3. Una funcionalidad se desarrolla en una rama corta, se explica en un PR y recibe al menos una revisión de otro integrante. `main` representa lo que el equipo puede mostrar o integrar. Se usan commits de tipo `feat:`, `fix:`, `docs:` o `test:`.
-4. En cada reunión se revisan bloqueos, contratos pendientes, demostración del incremento y próximo responsable de cada tarea. Se anota la decisión en el issue o PR correspondiente.
+2. La API y el formato de sesión se acuerdan mediante una tarea y revisión del [contrato de web](https://github.com/Luchosqi/movilidad-post-cancer-web/blob/main/docs/contrato-integracion.md) antes de implementar cambios incompatibles. Web publica un ejemplo JSON; APK lo usa para probar su envío.
+3. Cada repositorio sigue [GitFlow y commits atómicos](../CONTRIBUTING.md): `feature/*` sale de `develop`, las entregas pasan por `release/*` hacia `main` y otro integrante revisa antes de integrar. Los PR son opcionales.
+4. En cada reunión se revisan bloqueos, contratos pendientes, demostración del incremento y próximo responsable de cada tarea. Se anota la decisión en el issue correspondiente.
 5. No se suben datos identificables de pacientes, videos clínicos, credenciales ni bases reales. Las pruebas compartidas usan datos sintéticos y el despliegue requiere definir acceso, retención y consentimiento.
 
 ## Primera reunión: decisiones que faltan

@@ -1,6 +1,6 @@
 # Contrato de integración APK ↔ web
 
-**Estado:** propuesta v0.1 para revisión del equipo, 2026-10-06. **Responsable de edición:** web; cualquier cambio que afecte a APK se acuerda en un PR revisado por ambos lados.
+**Estado:** propuesta v0.1 para revisión del equipo, 2026-10-06. **Responsable de edición:** web; cualquier cambio que afecte a APK se acuerda en un issue y se revisa por ambos lados antes de integrar.
 
 ## Flujo previsto
 
