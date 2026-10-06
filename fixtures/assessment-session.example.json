@@ -1,0 +1,26 @@
+{
+  "schema_version": "0.1",
+  "session_id": "00000000-0000-4000-8000-000000000001",
+  "patient_id": "demo-patient-001",
+  "exercise_id": "exercise-demo-01",
+  "protocol_version": "demo-1",
+  "side": "left",
+  "recorded_at": "2026-10-06T12:00:00Z",
+  "metrics": [
+    {
+      "name": "demo_angle",
+      "value": 72.5,
+      "unit": "deg"
+    },
+    {
+      "name": "demo_repetitions",
+      "value": 3,
+      "unit": "count"
+    }
+  ],
+  "quality": {
+    "status": "review",
+    "reason_codes": ["demo_only"]
+  },
+  "measurement_version": "demo-1"
+}

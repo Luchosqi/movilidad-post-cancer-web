@@ -1,0 +1,27 @@
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.local
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.cache/
+__pycache__/
+*.pyc
+.venv/
+
+# Local patient or application data
+data/
+*.sqlite
+*.db
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
