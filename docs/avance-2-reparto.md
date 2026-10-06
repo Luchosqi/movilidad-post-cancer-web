@@ -1,0 +1,50 @@
+# Avance 2: reparto de tareas
+
+**Estado:** propuesta para que Emilia, Luis y Cristian la ajusten en reunión. **Fuente:** `Planificación.xlsx`, hoja `Planificación`, sesiones 16, 18, 19 y 31. **Fecha de referencia:** 6 de octubre de 2026.
+
+## Fechas del ramo
+
+| Fecha | Sesión | Qué indica el cronograma | Implicancia para el equipo |
+| --- | ---: | --- | --- |
+| 9 oct | 16 | Comunicación con el usuario: entrevistas y levantamiento de requerimientos. | Tener preparada la guía de entrevista y confirmar a quién entrevistar. |
+| 12 oct | 17 | Suspensión de actividades lectivas. | No contar con una clase para recibir retroalimentación. |
+| 16 oct | 18 | Evaluación teórica 2. | Reservar tiempo de estudio; cerrar el material del proyecto antes de esa fecha si es posible. |
+| **19 oct** | **19** | **Avance 2: propuesta final + requerimientos + Figma.** | **Entrega próxima del proyecto.** |
+| **30 nov** | **31** | **Avance 3: prototipo final + documentación.** | Hito de implementación posterior al Avance 2. |
+
+Las fechas proceden de las celdas `D21`, `D22`, `D23`, `D24` y `D36` del cronograma. El documento no especifica hora de entrega ni pauta de evaluación detallada; deben confirmarse con el docente.
+
+## Qué debe existir para el 19 de octubre
+
+1. **Propuesta final:** problema, usuarios, objetivo, alcance del prototipo, flujo APK ↔ web, límites de la herramienta y cambios motivados por entrevistas o revisión de la contraparte.
+2. **Requerimientos trazables:** fuente de cada necesidad, lista priorizada de requerimientos funcionales y no funcionales, criterios de aceptación y preguntas aún abiertas. Señalar qué afirmaciones están validadas y cuáles son hipótesis.
+3. **Figma:** pantallas enlazadas para el recorrido del paciente (inicio, guía, medición, resultado) y del profesional (historial y comparación). Anotar qué requerimiento cubre cada flujo; un prototipo visual no implica funcionalidad implementada.
+4. **Presentación:** recorrido breve que conecte problema → evidencia → solución → requerimientos → prototipo → plan hasta el 30 de noviembre. Revisar que las tres piezas cuenten la misma versión del proyecto.
+
+## Dueños propuestos y entregas
+
+| Trabajo | Responsable principal | Apoyo/revisión | Entrega verificable | Fecha interna propuesta |
+| --- | --- | --- | --- | --- |
+| Contacto con contraparte, guía de entrevista y registro de respuestas | Emilia | Luis y Cristian revisan preguntas técnicas | Guía, citas/notas fechadas y lista de hallazgos. No presentar entrevistas que no se realizaron. | Guía 8 oct; hallazgos tan pronto ocurra la entrevista. |
+| Protocolo del primer ejercicio y necesidades de la app paciente | Luis | Emilia valida lenguaje y consulta al profesional; Cristian revisa datos | Ejercicio candidato, pasos, indicadores a explorar, condiciones de calidad y requisitos APK con criterios de aceptación. Todo queda sujeto a revisión clínica. | Borrador 11 oct; revisión 14 oct. |
+| Flujo profesional, datos y necesidades de web | Cristian | Emilia consulta a la contraparte; Luis revisa el intercambio | Casos de uso del profesional, requisitos de historial/comparación, campos mínimos y riesgos de acceso/privacidad. | Borrador 11 oct; revisión 14 oct. |
+| Síntesis de requerimientos y propuesta final | Emilia | Luis y Cristian aportan y revisan su sección | Documento único con prioridades, fuentes, decisiones y preguntas pendientes; versión final de la propuesta. | Borrador 14 oct; cierre 17 oct. |
+| Prototipo Figma de APK | Luis | Emilia revisa comprensibilidad; Cristian revisa continuidad de datos | Flujo navegable del paciente con estados de error/calidad y anotaciones de requerimientos. | 15 oct. |
+| Prototipo Figma de web | Cristian | Emilia revisa lectura para profesionales; Luis revisa métricas | Flujo navegable de historial y comparación, con calidad de medición visible. | 15 oct. |
+| Integración de Figma, presentación y ensayo | Emilia coordina | Luis y Cristian presentan y corrigen sus partes | Un único enlace de Figma, presentación y ensayo cronometrado; verificación contra el texto exacto del Avance 2. | Integración 17 oct; ensayo 18 oct. |
+
+Las fechas internas son objetivos sugeridos para dejar margen de revisión antes del 19 de octubre. Si la contraparte aún no puede ser entrevistada, registrar la limitación y distinguir los requisitos inferidos de los confirmados.
+
+## Reparto por repositorio
+
+- **APK:** Luis abre tareas para protocolo, requisitos de captura/medición y flujo Figma del paciente. No necesita cerrar un modelo de pose antes del Avance 2; sí justificar viabilidad y riesgos.
+- **web:** Cristian abre tareas para requerimientos del profesional, datos, flujo Figma y revisión del [contrato de integración](contrato-integracion.md).
+- **Coordinación compartida:** Emilia mantiene la propuesta final, el registro de entrevistas y la presentación en `web/docs` para que todos trabajen sobre una versión. Los PR de cambios de alcance o contrato se revisan entre repositorios.
+
+## Preguntas para cerrar en la próxima reunión
+
+- ¿Hay entrevista confirmada con paciente, kinesiólogo u otro profesional? ¿Cuándo y con qué consentimiento se registrarán notas?
+- ¿Qué ejercicio se tomará como primer caso y qué medición tiene valor para el profesional? Si falta validación, marcarlo como candidato.
+- ¿Qué pide exactamente la pauta del Avance 2 sobre cantidad de requerimientos, formato de Figma y duración de presentación?
+- ¿Quién creará el archivo Figma y compartirá acceso de edición al equipo? ¿Dónde se guardará el enlace?
+- ¿Qué horarios reales tiene cada integrante entre el 9 y el 19 de octubre, considerando la evaluación teórica del 16?

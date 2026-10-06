@@ -1,6 +1,6 @@
 # Plan de trabajo compartido
 
-**Estado:** propuesta para discutir con el equipo. **Fuente:** [Propuesta de solución](propuesta-de-solucion.pdf) y [README inicial de APK](https://github.com/Luchosqi/movilidad-post-cancer-APK/blob/main/README.md). **Actualizado:** 2026-10-06.
+**Estado:** propuesta para discutir con el equipo. **Fuente:** [Propuesta de solución](propuesta-de-solucion.pdf) y [README inicial de APK](https://github.com/Luchosqi/movilidad-post-cancer-APK/blob/main/README.md). **Actualizado:** 2026-10-06. Para el próximo hito del ramo, ver el [reparto del Avance 2](avance-2-reparto.md).
 
 ## Resultado que buscamos
 
