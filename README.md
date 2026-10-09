@@ -11,6 +11,8 @@ Planificación inicial. Todavía no se eligió un framework, no hay API desplega
 - [Plan de trabajo compartido](docs/plan-de-trabajo.md): etapas y forma de trabajar.
 - [Reparto del Avance 2](docs/avance-2-reparto.md): entregables del 19 de octubre, responsables y fechas internas propuestas.
 - [Contrato de integración propuesto](docs/contrato-integracion.md): estructura de las sesiones y reglas de compatibilidad.
+- [Especificación de requerimientos](docs/Especificacion_de_requerimientos_Movilidad_Post_Cancer.docx): requisitos verificables de ambas apps y trazabilidad a pantallas.
+- [Prompts para Figma Make](docs/prompts-figma-make.md): instrucciones para los dos prototipos de alta fidelidad.
 - [Propuesta de solución](docs/propuesta-de-solucion.pdf): objetivos y contexto del proyecto.
 
 ## Alcance inicial de web
