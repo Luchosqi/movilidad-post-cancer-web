@@ -12,8 +12,17 @@ Planificación inicial. Todavía no se eligió un framework, no hay API desplega
 - [Reparto del Avance 2](docs/avance-2-reparto.md): entregables del 19 de octubre, responsables y fechas internas propuestas.
 - [Contrato de integración propuesto](docs/contrato-integracion.md): estructura de las sesiones y reglas de compatibilidad.
 - [Especificación de requerimientos](docs/Especificacion_de_requerimientos_Movilidad_Post_Cancer.docx): requisitos verificables de ambas apps y trazabilidad a pantallas.
+- [Entrega de especificación y prototipado final](docs/Entrega_Especificacion_y_Prototipado_Final_Movilidad_Post_Cancer.docx): Word con requisitos, verificación, matriz de flujos y plan de cierre.
 - [Prompts para Figma Make](docs/prompts-figma-make.md): instrucciones para los dos prototipos de alta fidelidad.
 - [Propuesta de solución](docs/propuesta-de-solucion.pdf): objetivos y contexto del proyecto.
+
+## Prototipos navegables
+
+- [Web del profesional](https://www.figma.com/proto/oOeWnAmFDW6oCgf7jPyKGG/ContextoSocial-2026-2?node-id=15-2&starting-point-node-id=15%3A2&scaling=scale-down).
+- [App del paciente](https://www.figma.com/proto/oOeWnAmFDW6oCgf7jPyKGG/ContextoSocial-2026-2?node-id=16-2&starting-point-node-id=16%3A2&scaling=scale-down).
+- [Figma editable con ambos flujos](https://www.figma.com/design/oOeWnAmFDW6oCgf7jPyKGG/ContextoSocial-2026-2?node-id=0-1).
+
+La entrevista prevista para el 16 de octubre se canceló. La simulación del documento de entrega está identificada como hipótesis y no constituye validación con la contraparte ni validación clínica.
 
 ## Alcance inicial de web
 
